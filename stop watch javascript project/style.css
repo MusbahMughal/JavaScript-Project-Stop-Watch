@@ -1,0 +1,133 @@
+* {
+    background-color: #FFA600;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.warpper {
+    width: 100%;
+    height: 800px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    /* margin: 100px; */
+    /* margin: 30px auto; */
+    padding-top: 100px;
+    align-items: center;
+
+
+
+}
+
+h1 {
+    padding-top: 140px;
+
+    color: aliceblue;
+    font-size: 65px;
+    line-height: 80px;
+    font-weight: 500;
+    text-align: center;
+    /* font-size: 2.6em; */
+    text-transform: uppercase;
+    font-family: 'Roboto',
+}
+
+#seconds,
+#tens {
+ 
+    font-size: 50px;
+ 
+    color: white;
+
+    margin-left: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+    padding-top: 30px;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 65px;
+    line-height: 80px;
+    font-weight: 500;
+    text-align: center;
+    /* font-size: 2.6em; */
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    padding-top: 40px;
+}
+
+.btn {
+    /* margin-right: 50px;  */
+    text-align: center;
+    padding-top: 150px;
+}
+
+
+#button-start {
+
+    padding: 30px 70px;
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: #FFA600;
+    border-radius: 5px;
+    border: 2px soild whitesmoke;
+    /* margin-right: 25px; */
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.5s;
+    color: aliceblue;
+}
+
+#button-start:hover {
+    background: white;
+    /* border: soild 1px white; */
+    color: #FFA600;
+}
+
+#button-stop {
+    padding: 30px 70px;
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: #FFA600;
+    border-radius: 5px;
+    border: 1px soild whitesmoke;
+    /* margin-right: 25px; */
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.5s;
+    color: aliceblue;
+}
+
+#button-stop:hover {
+    background: white;
+    /* border: soild 1px white; */
+    color: #FFA600;
+}
+
+
+#button-reset {
+    padding: 30px 70px;
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: #FFA600;
+    border-radius: 5px;
+    border: 1px soild whitesmoke;
+    /* margin-right: 25px; */
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.5s;
+    color: aliceblue;
+}
+
+#button-reset:hover {
+    background: white;
+    /* border: soild 1px white; */
+    color: #FFA600;
+}
